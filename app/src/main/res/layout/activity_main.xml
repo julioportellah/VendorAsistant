@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/capaDeVideo"
+        android:orientation="vertical"
+        android:transitionGroup="false">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/botonesDeSeleccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/video_btn_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn1_text"
+                android:rotation="180"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/video_btn_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn2_text"
+                android:rotation="180"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/video_btn_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn3_text"
+                android:rotation="180"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/registro_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn4_text"
+                android:rotation="180"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/videoView"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

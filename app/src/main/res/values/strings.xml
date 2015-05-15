@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PruebaVideo_v1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn1_text">Video 1</string>
+    <string name="btn2_text">Video 2</string>
+    <string name="btn3_text">Video 3</string>
+    <string name="btn4_text">Registrar</string>
+</resources>
